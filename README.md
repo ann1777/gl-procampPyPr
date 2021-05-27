@@ -8,7 +8,7 @@ How to run tests:
 
 ### Tasks:
 
-1. Create framework structure for https://app.cosmosid.com
+1. Create framework structure for https://app.cosmosid.com Api documentation: https://docs.cosmosid.com/docs/api-documentation
 
 1.1. It shall contain folders for:
 
@@ -37,4 +37,4 @@ How to run tests:
 - PUT
 - POST
 - DELETE
-Api documentation: https://docs.cosmosid.com/docs/api-documentation
+
