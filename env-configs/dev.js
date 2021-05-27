@@ -16,7 +16,7 @@ app_defaults = ConfigFromDictProvider(
 "AWS_ACCESS_KEY_ID":"..."
 "AWS_DEFAULT_REGION": "US -..."
 "AWS_S3_ENDPOINT_URL": "https://..."
-"ADMIN_BASE_UPL": "https://..."
+"ADMIN_BASE_URL": "https://..."
 "UTOOL_BASE_URL":
 "CLI_BASE_URL":
 "CLI_INSTALL_PARAMS":
