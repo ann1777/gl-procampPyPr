@@ -1,8 +1,8 @@
 class Config(BaseConfig):
 def__init__(self):
 config_path = f"env_configs/{os.enwiron..."
-if os.environ["TARGET"] == "prod"
-    else "specifications/scout_index/dev.y..."
+if os.environ["TARGET"] == "qa"
+    else "specifications/scout_index/qa.y..."
 )
 app_env = ConfigFromEnvProvider()
 app_json_conf = ConfigFromSimpleJsonProvid...
@@ -12,8 +12,8 @@ app_defaults = ConfigFromDictProvider(
 "SCOUT_DATA_PATH": f"specifications/workf..."
 "SCOUT_SPECS_PATH": "scout_spec_path",
 "AWS_UPLOADS_BUCKET": "cosm..."
-"AWS_SECRET_ACCESS_KEY:"
-"AWS_ACCESS_KEY_ID":"..."
+"AWS_SECRET_ACCESS_KEY":
+"AWS_ACCESS_KEY_ID": "..."
 "AWS_DEFAULT_REGION": "US -..."
 "AWS_S3_ENDPOINT_URL": "https://..."
 "ADMIN_BASE_UPL": "https://..."

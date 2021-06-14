@@ -2,13 +2,13 @@ class Config(BaseConfig):
 def__init__(self):
 config_path = f"env_configs/{os.enwiron..."
 if os.environ["TARGET"] == "prod"
-    else "specifications/scout_index/dev.y..."
+    else "specifications/scout_index/prod.y..."
 )
 app_env = ConfigFromEnvProvider()
 app_json_conf = ConfigFromSimpleJsonProvid...
 app_defaults = ConfigFromDictProvider(
-"USERS_DATA_PATH": "data/user..."
-"SAMPLES_DATA_PATH": "data/sampl..."
+"USERS_DATA_PATH": "data/users.."
+"SAMPLES_DATA_PATH": "data/samples.."
 "SCOUT_DATA_PATH": f"specifications/workf..."
 "SCOUT_SPECS_PATH": "scout_spec_path",
 "AWS_UPLOADS_BUCKET": "cosm..."

@@ -61,7 +61,6 @@ node('docker-build'){
                    parameters(settings_parameters)
          ])
          }
-
          properties([
                 parameters(settings_parameters)
          ])

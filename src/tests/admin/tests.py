@@ -6,3 +6,6 @@ from src.tools.helpers.parsers.scout_queries_par..
 @pytest.fixture(scope="class")
 def scout():
     return scout(CONFIG_SCOUT_BASE_URL)
+
+        RestAssured.requestSpecification = requestSpecification;
+        RestAssured.responseSpecification = responseSpecification;

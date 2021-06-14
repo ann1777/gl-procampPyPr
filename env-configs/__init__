@@ -1,0 +1,53 @@
+import collections
+import providers
+import os
+
+class HierarchicalProvider(ConfigKeyProvider):
+    """
+    Allows to create hierarhical override model,
+    for ex:
+    1.Env config (most priority)
+    2.Json config (les priority)
+    3.Dict config (with defaults)
+
+    In this situation the get key will try return value...,
+    In case it not configured (None) => resolve from 2nd,
+    In case it not configured from the one in the passed...
+    """
+    def __init__(self, None):
+        """
+        :param providers: Single item or list of ConfKeyPro
+        """
+        self.providers = []
+        if providers is not None:
+            self.add(providers)
+
+    def add(selfself, provider):
+        """
+        Adds aditional less priority providers to lookup.
+        :param provider: Single item or list of ConfigKeyProvider
+        """
+        def add_checked(p):
+            if issubclass(type(p), ConfigKeyProvider):
+                self.providers.append(p)
+            else:
+                raise ValueError("Provider must be of ConfigKeyProvider")
+
+        if isinstance(provider, collections.Sequence):
+            for item in provider:
+                add_checked(item)
+        else:
+            add_checked(provider)
+    def get(self, key):
+        """
+        Returns not None key value from the list best providers
+        or None if nothing configured
+        :param str key: Key to retrieve
+        """
+        for provider in self.providers:
+            result = provider.get(key)
+            if result is not None:
+                return result
+        return None
+
+        
