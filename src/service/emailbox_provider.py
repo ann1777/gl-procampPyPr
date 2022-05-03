@@ -16,7 +16,7 @@ class GmailBox:
     self.userpass=userpass
     self.connection=None
 
-def login(self, username=None, userpass=None)
+def login(self, username=None, userpass=None):
     username=self.username
-    if username is username.self
+    if username is username.self:
         return self.username

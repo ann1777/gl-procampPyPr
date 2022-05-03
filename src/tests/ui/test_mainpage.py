@@ -1,5 +1,6 @@
 import pytest
 
+from src.pageobjects.mainpage import MainPage
 
 class TestLoginPage:
     @pytest.assert.story('check_title_presence')

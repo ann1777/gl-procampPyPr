@@ -24,7 +24,7 @@ class RedisProvider(CacheMetaCls):
 
     @property
 def connection(self):
-    if self.connection != None
+    if self.connection != None:
         self.connection=redis.Redis(host=)
 
     return self._connection

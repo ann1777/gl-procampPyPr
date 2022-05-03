@@ -2,18 +2,55 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5400272b-04d9-41dd-afe7-061205d2d12f" name="Default Changelist" comment="Api client created">
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-05-28T110710.404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-05-28T110831.200.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-05-28T112047.200.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-05-28T112114-1.200.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-05-28T112114.200.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-05-28T113644.200.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/2021-05-28T113706.200.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_8_2021_5_01_PM_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_8_2021_5_01_PM__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/admin/first_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.dockerignore.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_8_2021_5_01_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_8_2021_5_01_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/core/config.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/webdriver_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/webdriver_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/account.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_analysis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report_3dpca.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report_3dpca.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report_alpha.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report_alpha.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report_beta.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report_beta.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report_heatmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report_heatmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report_matrix.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report_read_stat.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report_read_stat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report_stacked_bar.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report_stacked_bar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/modal_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/modal_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/datasets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/documentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/documentation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/illumina_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/illumina_import.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/micribiome.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/micribiome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/single_analysis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/single_analysis/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/utool/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/utool/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page-objects/mainpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/mainpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/providers/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/browsers_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/browsers_provider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/cache_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/cache_provider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/service/emailbox_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/emailbox_provider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/functional/smoke/LoginTest.python.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/functional/smoke/test_login_POST.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/functional/smoke/test_login_POST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/scout/test_scout.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/scout/test_scout.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/ui/tests_maimpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ui/test_mainpage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/web.app/pipelines/test_shotgun_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/web.app/pipelines/test_shotgun_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +103,17 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="653b751c-a6d2-4d24-a60a-88ff030b5242" />
+        <option name="url" value="https://github.com/ann1777/gl-procampPyPr.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProblemsViewState">
     <option name="showPreview" value="true" />
   </component>
@@ -76,15 +124,9 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="directory" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTTP Request&#10;GitIgnore" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/tests/cli/scout" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="app.teamhub.trackedBranches" value="-aku6o4/master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/ngx-bootstrap1" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -92,17 +134,50 @@
       <recent name="C:\Users\anzhela.potapchuk\PycharmProjects\gl-procamp_PythonProject\src\tests\cli\scout" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="All in Access to cosmosig.com" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/Access to cosmosig.com.http">
+  <component name="RunManager" selected="Python.config">
+    <configuration name="cocmosid_http_session" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/applications/api/http_session" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/applications/api/http_session/cocmosid_http_session.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="GETaccess to app.cosmosid.com#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/Access to cosmosig.com.http" runType="Run single request">
+    <configuration name="config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/config.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="POSTapp.cosmosid.comrequest#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/app.cosmosid.comPOSTrequest.http" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="python" type="PythonConfigurationType" factoryName="Python">
       <module name="pythonProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -124,21 +199,93 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+    <configuration name="test_dog_api" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests/test_dog_api.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_mainpage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/ui" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests/ui/test_mainpage.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_scout" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests/scout" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests/scout/test_scout.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile">
       <deployment type="dockerfile">
         <settings>
-          <option name="imageTag" value="" />
           <option name="containerName" value="" />
           <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.python" />
+      <item itemvalue="Python.config" />
+      <item itemvalue="Python.test_dog_api" />
+      <item itemvalue="Python.cocmosid_http_session" />
+      <item itemvalue="Python.test_mainpage" />
+      <item itemvalue="Python.test_scout" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.All in Access to cosmosig.com" />
-        <item itemvalue="HTTP Request.POSTapp.cosmosid.comrequest#1" />
-        <item itemvalue="HTTP Request.GETaccess to app.cosmosid.com#1" />
+        <item itemvalue="Python.config" />
+        <item itemvalue="Python.test_dog_api" />
+        <item itemvalue="Python.cocmosid_http_session" />
+        <item itemvalue="Python.test_mainpage" />
+        <item itemvalue="Python.test_scout" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +328,13 @@
       <workItem from="1623422582118" duration="2208000" />
       <workItem from="1623428625812" duration="1024000" />
       <workItem from="1623678978929" duration="6952000" />
+      <workItem from="1651396660580" duration="835000" />
+      <workItem from="1651472991501" duration="931000" />
+      <workItem from="1651477644471" duration="5429000" />
+      <workItem from="1651483544838" duration="2264000" />
+      <workItem from="1651487731607" duration="2561000" />
+      <workItem from="1651491019758" duration="5868000" />
+      <workItem from="1651501214919" duration="16000" />
     </task>
     <task id="LOCAL-00001" summary="project framework created">
       <created>1622029457636</created>
@@ -247,28 +401,12 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="project framework created" />
     <MESSAGE value="BaseConfig updated" />
     <MESSAGE value="Api client created and tested" />
     <MESSAGE value="Api client created" />
     <option name="LAST_COMMIT_MESSAGE" value="Api client created" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pythonProject$main.coverage" NAME="main Coverage Results" MODIFIED="1621934577834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

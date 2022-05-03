@@ -34,13 +34,13 @@ def shotgun_sample(suite_user_api_session, SampleProviderClass):
 
 @pytest.fixture(scope="class")
 def shotgun_sample_with_faled_ura(suite_user_api_session, SampleProviderClass):
-    sample, file = SampleProviderClass(
+    sample, file=SampleProviderClass(
         api_session=suite_user_api_session,
         files_provider=S3FileProvider,
         file_tags=[FileFormat.FASTA.sample_type=SampleTypes.SHOTGUN]
     )
 
-def _moderate_data_format_for_analysis_tree(data):
+def moderate_data_format_for_analysis_tree(data):
     """
     Recursively checks for file format:
     :param data: response from /v1/runs/<run_id>/artifacts/ura

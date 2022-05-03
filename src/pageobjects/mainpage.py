@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from core.config.import Configurator
+from core.config import Configurator
 from cosmosid_pages.base_page import BasePage
 
 class MainPageLocations:

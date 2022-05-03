@@ -2,7 +2,6 @@ from abcplus import ABCMeta, abstractproperty
 from selenium import webdriver
 from selenium.webdriver import DesiredCapabilities
 from src.config import CONFIGS
-from src.enums import Folders
 
 class Browsers MetaCls(metaclass = ABCMeta):
     @property
@@ -14,9 +13,8 @@ class Browsers MetaCls(metaclass = ABCMeta):
         self.desired_capabilities = {browserName...}
         self.desired_capabilities = ["goog:loggingP"]
         self.options = webdriver.ChromeOptions()
-        self.options.add_argument("__window_size...")
-        self.options.add_argument("__window_maxi...")
-        self.options.add_argument("__windows_dev...")
+        self.options.add_argument("__window_size")
+        self.options.add_argument("__window_maximize")
         self._wd = None
 
     @property

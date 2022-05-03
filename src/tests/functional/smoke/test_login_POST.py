@@ -34,13 +34,14 @@ def driver(browser):
 def pytest_runtest_makereport(item, call):
     outcome=yield
     rep=outcome.get.result()
-    if(rep.when == "Call" or rep.when == "setup" or rep.when == "teardown"):
+    if(rep.when == "Call" or
+            rep.when == "setup" or
+            rep.when == "teardown"):
         try:
             if "app" in item.funcards:
                 web_driver=item.funcards["app"]
             elif "admin_app" in item.funcards:
                 web_driver=item.funcards["admin_app"]
-            elif "utool_app" in item.funcards["utool_app"]
             else:
                 return
             @allure.attach(
@@ -48,6 +49,6 @@ def pytest_runtest_makereport(item, call):
                 name="screenshot",
                 attachment_type=allure.attachment_type.PNG
             )
-        exept Exception as e:
+        except Exception as e:
             logging.error(f"Failed to login as user")
             logging.exception(e)

@@ -1,7 +1,7 @@
 import logging
 import pytest
 
-def SampleProviderFunction(request, db)
+def SampleProviderFunction(request, db):
     yield from_SampleProvider(request, db)
 
 @pytest.fixture(scope="class")
