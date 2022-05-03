@@ -1,56 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5400272b-04d9-41dd-afe7-061205d2d12f" name="Default Changelist" comment="Api client created">
-      <change afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/admin/first_test.py" afterDir="false" />
+    <list default="true" id="5400272b-04d9-41dd-afe7-061205d2d12f" name="Default Changelist" comment="Refactoring code. Updated requirements.txt, added .dockerignore file">
       <change beforePath="$PROJECT_DIR$/.dockerignore.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_8_2021_5_01_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_8_2021_5_01_PM__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/core/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/logger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/webdriver_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/webdriver_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pytest.ini" beforeDir="false" afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/account.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/account.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/base_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_analysis.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_analysis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report_3dpca.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report_3dpca.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report_alpha.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report_alpha.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report_beta.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report_beta.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report_heatmap.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report_heatmap.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report_matrix.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report_matrix.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report_read_stat.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report_read_stat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/comparative_report_stacked_bar.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/comparative_report_stacked_bar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/comparative_analysis/modal_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/comparative_analysis/modal_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/datasets.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/datasets.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/documentation.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/documentation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/illumina_import.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/illumina_import.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/micribiome.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/micribiome.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/single_analysis/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/single_analysis/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/cosmosid_pages/utool/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/cosmosid_pages/utool/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-objects/mainpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageobjects/mainpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/providers/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/providers/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/browsers_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/browsers_provider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/cache_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/cache_provider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service/emailbox_provider.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/service/emailbox_provider.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/functional/smoke/LoginTest.python.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/functional/smoke/test_login_POST.http" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/functional/smoke/test_login_POST.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/scout/test_scout.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/scout/test_scout.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/ui/tests_maimpage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/ui/test_mainpage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/web.app/pipelines/test_shotgun_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/web.app/pipelines/test_shotgun_api.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -385,11 +337,21 @@
       <option name="project" value="LOCAL" />
       <updated>1623691574941</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Refactoring code. Updated requirements.txt, added .dockerignore file">
+      <created>1651559438794</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1651559438794</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.dockerignore" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -407,6 +369,7 @@
     <MESSAGE value="BaseConfig updated" />
     <MESSAGE value="Api client created and tested" />
     <MESSAGE value="Api client created" />
-    <option name="LAST_COMMIT_MESSAGE" value="Api client created" />
+    <MESSAGE value="Refactoring code. Updated requirements.txt, added .dockerignore file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring code. Updated requirements.txt, added .dockerignore file" />
   </component>
 </project>
