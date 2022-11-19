@@ -5,7 +5,7 @@ import yaml
 HOME_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir))
 BASE_URL = 'https://www.cosmosid.com/'
 LOGIN_PAGE = 'https://app.cosmosid.com/login'
-BROWSER = os.environ.get('ENV',default='chrome')
+BROWSER = os.environ.get('BROWSER', 'chrome')
 config_path = Path.home()/'PycharmProjects'/'gl-procamp_PythonProject'/'Core'
 config_path_json = config_path/'env-configs'/f'.js'
 config_path_yaml = config_path/'config.yaml'
@@ -16,6 +16,15 @@ defaults = {
     "LOGIN_PAGE": "https://app.cosmosid.com/login",
     "SUPPORTED_BROWSERS": ["chrome", "firefox", "edge", "opera"]
 }
+class Config:
+    def __init__(self):
+        self.config_path = config_path(os.path.join(HOME_PATH, 'core', 'config.yaml'))
+        self.base_url = config_path(os.path(BASE_URL, "BASE_URL"))
+        self.port = "port"
+        self.user = "user"
+        self.password = "password"
+        self.timeout = "timeout"
+
 @classmethod
 def get_config(cls, key:str):
     '''Get configuration hierarhically from different sourses'''

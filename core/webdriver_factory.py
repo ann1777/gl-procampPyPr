@@ -1,12 +1,12 @@
-from sys import executable
-
-from selenium import webdriver
 from msedge.selenium_tools import webdriver
-from webdriver.manager.chrome import ChromeDriverManager
-from webdriver.manager.utils import Chrometype
-from webdriver.manager.microsoft import EdgeChromiumDriverManager
-from webdriver.manager.opera import OperaDriverManager
-from core.config import BROWSER
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from webdriver_manager.firefox import GecoDriverManager, GeckoDriverManager
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
+from webdriver_manager.opera import OperaDriverManager
+from webdriver_manager.utils import ChromeType
+
+from core.settings import BROWSER
 
 def get_driver(BROWSER=None):
     '''Get webdriver according to BROWSER'''
@@ -21,7 +21,7 @@ def get_driver(BROWSER=None):
         driver = webdriver.Opera(OperaDriverManager().install())
     return driver
 
-def get_driver(requested_driver.str):
+def get_browsers_dict(requested_driver: str):
     browsers_dict = {
         'chrome': __get_chrome(),
         'firefox': __get_firefox(),
@@ -29,7 +29,7 @@ def get_driver(requested_driver.str):
         'opera': __get_opera()
        }
     try:
-        return browsers_dict[requested_driven]()
+        return browsers_dict[requested_driver]()
     except ValueError:
         raise Exception ('Browser is not supported')
 
